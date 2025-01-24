@@ -10,7 +10,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Print Hello World File Content
-        run: cat hello-world.txt
+        run: echo"$(cat hello-world.txt)"
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
