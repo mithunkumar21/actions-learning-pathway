@@ -9,8 +9,8 @@ jobs:
       - name: Checkout Repository Code
         uses: actions/checkout@v3
 
-      - name: Print Hello World File Content
-        run: echo"$(cat hello-world.txt)"
+      # - name: Print Hello World File Content
+      #   run: echo"$(cat hello-world.txt)"
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -30,8 +30,8 @@ jobs:
       - name: Checkout Repository Code
         uses: actions/checkout@v3
 
-      - name: Print Hello World File Content
-        run: echo"$(cat hello-world.txt)"
+      # - name: Print Hello World File Content
+      #   run: echo"$(cat hello-world.txt)"
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
