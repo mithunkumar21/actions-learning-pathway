@@ -23,5 +23,5 @@ jobs:
       - name: Build the Project
         run: npm run build --if-present
 
-      - name: Run Tests
+      - name: Run Test
         run: npm test
