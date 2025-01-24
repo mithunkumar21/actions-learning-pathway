@@ -23,5 +23,5 @@ jobs:
      - name: built node.js
        run:  npm run built
 
-     - name: test node.js
+     - name: tests node.js
        run: npm test         
